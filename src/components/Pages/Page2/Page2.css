@@ -1,0 +1,77 @@
+.topcon{
+    height: 90vh;
+    min-width: 100%;
+    background-color: aqua;
+}
+.maincon {
+    height: 90vh;
+    min-width: 100%;
+    position: relative;
+    background-image: url(../../../Images/2.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    background-position-y: 20%;
+}
+
+.bckimg {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bcktxt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 3vw; /* Responsive font size based on viewport width */
+    color: rgb(255, 255, 255);
+}
+
+.bstyle {
+    margin-top: 5%; /* Adjust the margin as needed for spacing */
+}
+@media screen and (max-width: 768px) {
+    .topcon{
+        display: flex;        
+        justify-content: center;
+        align-items: center;
+        min-width: 100%;
+        /* padding: 2%; */
+    }
+    .maincon {
+        background-size: 100% 100%;
+    }
+
+    .bcktxt {
+        font-size: 5vw; /* Adjust font size for smaller screens */
+    }
+}
+
+/* Media query for even smaller screens (e.g., very narrow mobile devices) */
+@media screen and (max-width: 480px) {
+    .topcon{
+        display: flex;        
+        justify-content: center;
+        align-items: center;
+                
+}
+    .maincon {
+        position: absolute;
+        height: 90vh;
+    width: 100%;
+    }
+    .bckimg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bcktxt {
+        text-align: center;
+        font-size: 6vw; 
+    }
+}

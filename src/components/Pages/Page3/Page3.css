@@ -1,0 +1,139 @@
+.page3{
+    position: relative;
+    background-image: url(../../../Images/bg3.svg);
+    height:max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-direction: column;
+    padding-bottom: 3%;
+    /* color: white; */
+}
+.imggrp1{
+    display: flex;
+    justify-content: center;
+    height: max-content;
+    padding: 1% 0%;
+    width: 500px;
+}
+.imgtxt1{
+    
+    height: 250px;
+    width: 200px;
+    text-align: center;
+    
+    
+}
+.img1{
+    height: 100%;
+    width: 200px;
+}
+.imgtxt2{
+    text-align: center;
+    margin-top: 52%;
+    height: 250px;
+    width: 200px;
+    
+    
+}
+.img2{
+    height: 100%;
+    width: 200px;
+}
+
+.imggrp2{
+    /* padding: 1% 0%; */
+    display: flex;
+    
+    justify-content: center;
+    height: max-content;
+    width: 500px;
+}
+.imgtxt3{
+    /* margin-top: 10%; */
+    height: 250px;
+    width: 200px;
+    text-align: center;
+}
+.img3{
+    height: 100%;
+    width: 200px;
+}
+.imgtxt4{
+    text-align: center;
+    margin-top: 52%;
+    height: 250px;
+    width: 200px;
+    
+    
+}
+.img4{
+    height: 100%;
+    width: 200px;
+}
+
+@media screen and (max-width: 500px){
+    .imggrp1{
+        display: grid;
+        justify-content: center;
+        height: max-content;
+        padding: 1% 0%;
+        width: max-content;
+    }
+    .imgtxt1{
+        
+        height: 150px;
+        width: 100px;
+        text-align: center;
+        
+        
+    }
+    .img1{
+        height: 100%;
+        width: 100px;
+    }
+    .imgtxt2{
+        text-align: center;
+        margin-top: 52%;
+        height: 150px;
+        width: 100px;
+        
+        
+    }
+    .img2{
+        height: 100%;
+        width: 100px;
+    }
+    
+    .imggrp2{
+        /* padding: 1% 0%; */
+        display: grid;
+        
+        justify-content: center;
+        height: max-content;
+        width: max-content;
+    }
+    .imgtxt3{
+        margin-top: 45%;
+        height: 150px;
+        width: 100px;
+        text-align: center;
+    }
+    .img3{
+        height: 100%;
+        width: 100px;
+    }
+    .imgtxt4{
+        text-align: center;
+        margin-top: 52%;
+        height: 150px;
+        width: 100px;
+        
+        
+    }
+    .img4{
+        height: 100%;
+        width: 100px;
+    }
+}

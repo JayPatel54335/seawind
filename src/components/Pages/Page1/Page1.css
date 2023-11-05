@@ -1,0 +1,144 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+.header {
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+}
+
+.header2 {
+    background-image: url(../../../Images/OIP.jpeg);
+    background-size: 100% 100%;
+    background-position-y: 27%;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    min-width: 100%;
+    flex: 1; /* Grow to fill remaining space */
+    min-height: 100%; 
+    min-width: 100%; 
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 1%;
+    position: relative;
+}
+
+.logo {
+    margin-left: 20px;
+    font-size: 2rem;
+}
+
+@media (max-width: 700px) {
+    .logo {
+        font-size: 1.5rem;
+    }
+}
+
+
+.navbar .right ul {
+    font-size: 1.1rem; 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+
+.navbar .right ul li {
+    margin-right: 1rem; /* Reduce the margin for smaller screens */
+}
+
+@media (max-width: 700px) {
+    .navbar .right ul li {
+        margin-right: 0.5rem; /* Adjust the margin for smaller screens */
+    }
+}
+.navbar .right ul  :hover {
+    /* background-color: #f41010; */
+    cursor:pointer;
+    text-decoration:underline red;
+}
+/* .rr {
+    
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 9rem solid #ffffff; 
+    opacity: 0.9;
+    border-radius: 50%;    
+} */
+.secondcom {
+    position: relative;
+    width: 100%;
+}
+.secondcom h1{   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;    
+    font-size: 32px;
+   color: rgb(255, 0, 0);
+   padding-top: 5%;
+}
+.thiedcom {
+    text-align: center;
+    padding: 2% 0;
+}
+.text-center {
+    position: relative;    
+    text-align: center;
+}
+.text-center>img{
+    margin-top: 1%;
+    
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+}
+
+.image-text {
+    position: absolute;
+    bottom: 10px; /* Adjust the distance from the bottom */
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Background color for text */
+    color: white; /* Text color */
+    padding: 5px;
+    font-size: 18px; /* Adjust the font size */
+}
+.btndiv {
+    padding: 3% 0; /* Adjust the padding for better spacing */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+
+
+
+
+@media (max-width: 500px) {
+    .right>ul{
+       display:flex;
+       flex-direction: column;     }
+    .header {
+        width: 100%;
+        height: 100%;
+    }
+    .header2{
+        width: 100%;
+        /* height: 100%; */
+    }
+    .rounded{
+        width: 100%;
+    }
+  }

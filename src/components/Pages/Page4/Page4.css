@@ -1,0 +1,109 @@
+.page4 {
+  position: relative;
+  height: max-content;
+  padding: 2% 0%;
+}
+
+.page4txt {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 4vw; /* Use vw for font size */
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page4imgcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh; /* Use vh for height */
+  font-size: 1vw; /* Use vw for font size */
+  font-weight: 500;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.page4img {
+  width: 60vw; /* Use vw for width */
+  height: 40vh; /* Use vh for height */
+  background-image: url(../../../Images/4.jpeg);
+  background-repeat: no-repeat;
+  background-position: center; /* Center the background image */
+}
+
+.topleft1, .topleft2, .bottomleft3, .bottomleft4, .topright1, .topright2, .bottomright3, .bottomright4 {
+  background-color: black;
+  padding: 1%;
+}
+
+.topleft1 {
+  position: absolute;
+  top: 20%; /* Use percentages for positioning */
+  left: 10%; /* Use percentages for positioning */
+}
+
+.topleft2 {
+  position: absolute;
+  top: 40%; /* Use percentages for positioning */
+  left: 10%; /* Use percentages for positioning */
+}
+
+.bottomleft3 {
+  position: absolute;
+  top: 60%; /* Use percentages for positioning */
+  left: 10%; /* Use percentages for positioning */
+}
+
+.bottomleft4 {
+  position: absolute;
+  top: 80%; /* Use percentages for positioning */
+  left: 10%; /* Use percentages for positioning */
+}
+
+.topright1 {
+  position: absolute;
+  top: 20%; /* Use percentages for positioning */
+  right: 10%; /* Use percentages for positioning */
+}
+
+.topright2 {
+  position: absolute;
+  top: 40%; /* Use percentages for positioning */
+  right: 10%; /* Use percentages for positioning */
+}
+
+.bottomright3 {
+  position: absolute;
+  top: 60%; /* Use percentages for positioning */
+  right: 10%; /* Use percentages for positioning */
+}
+
+.bottomright4 {
+  position: absolute;
+  top: 80%; /* Use percentages for positioning */
+  right: 10%; /* Use percentages for positioning */
+}
+
+@media screen and (max-width: 500px){
+  .page4{
+    margin-top: 10%;
+  }
+  .page4img{
+    background-size: 100%;
+  }
+  .page4imgcon{
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 330px){
+  .page4{
+    margin-top: 12%;
+  }
+  .page4imgcon{
+    font-size: 10px;
+  }
+  
+}

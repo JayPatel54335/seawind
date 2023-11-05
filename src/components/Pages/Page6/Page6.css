@@ -1,0 +1,55 @@
+.page6{
+    height: 50vh;
+    
+}
+.page6img{
+    height: 100%;
+    background-image: url('../../../Images/World\ Map.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.page6tran{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color:rgba(252, 252, 252, 0.4) ;
+    
+
+}
+.page6box{
+    width: max-content;
+    height: max-content;
+    background-color: #1C538E;
+    position: relative;
+    top: 100%;
+    height: 6rem;
+   
+    border-radius: 20px;
+    
+}
+.page6icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 38px;
+    color: rgb(0, 0, 0);
+  }
+
+  
+  .icon-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 20px; /* Add spacing between icons */
+    }
+
+    .icon-container:hover{
+      color: crimson;
+    }
+    
+  .icon-name {
+    font-size: 19px; /* Adjust the font size for the names */
+    color: white; /* Set the color for the names */
+  }
